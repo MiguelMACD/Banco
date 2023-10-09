@@ -1,0 +1,88 @@
+.segunda_pag{
+
+    height:400px;
+    width: 500px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    }
+    
+    .imagen_logo{
+        width: 70px;
+        height: 80px;  
+    }
+
+    #id_img{
+        
+        display:inline-block;
+        position: relative;
+        
+    }
+    
+    #info_basica{
+
+        display: flex;
+        height: 80px;
+        justify-content: center;
+        padding-left: 24px;
+        padding-top: 8px;
+        align-items: center;
+        font-weight: normal;
+    }
+
+    .caja_flex{
+        display: flex;
+    }
+
+    .caja_flex2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 500px; /* (170px * 3 cuadros por fila) */
+        margin-top: 50px;
+    }
+
+   .cajasGod{
+    
+    width: 250px;
+    height: 50px;
+   }
+    
+    #id_boton1 input[type="submit"]{
+        
+        display: flex;
+        justify-content:flex-start;
+        background-color: #1e0897;
+        width: 70%;
+        margin: 0 auto;
+        color:white;
+        
+        border-bottom-left-radius: 16px;
+    }
+
+    #id_boton2 input[type="submit"]{
+        
+        display: flex;
+        justify-content: flex-end;
+        background-color: #1e0897;
+        width: 70%;
+        margin: 0 auto;
+        color:white;
+        
+        border-top-right-radius: 16px;
+    }
+
+    #id_boton3 input[type="submit"]{
+        
+        display: flex;
+        justify-content: flex-end;
+        background-color: #4d453c;
+        width: 70%;
+        margin: 0 auto;
+        color:white;
+        
+        border-top-right-radius: 16px;
+    }

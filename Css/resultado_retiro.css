@@ -1,0 +1,62 @@
+
+.primera_pag{
+
+    height:550px;
+    width: 600px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+    
+    .imagen_inicio{
+        height: 100px;
+        width: 80px;
+    }
+
+    #id_img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    
+    #info_principal{
+        padding-top: 10px;
+        padding-bottom: 15px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .info2{
+        margin: 50px;
+        text-align: center;
+    }
+
+    .caja_flex2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 600px; 
+        margin-top: 50px;
+    }
+
+   .cajasGod{
+    
+    width: 300px;
+    height: 50px;
+   }
+
+    #id_boton3 input[type="submit"]{
+        
+        display: flex;
+        justify-content: flex-end;
+        background-color: #4d453c;
+        width: 60%;
+        margin: 0 auto;
+        color:white;
+        
+        border-top-right-radius: 16px;
+    }
